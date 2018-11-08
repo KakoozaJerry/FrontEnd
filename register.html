@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Login</title>
+  <title>Register</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap core CSS -->
@@ -17,7 +17,7 @@
   
 </head>
 
-<body >
+<body style="background-color: #01ABE8;background-size: cover;">
 
   <!-- Navbar -->
   
@@ -26,11 +26,16 @@
 <!-- Material form register -->
 <div class="container">
   <div class="row">
-<div class="card col-md-6 col-xl-5 mb-4">
+    <div class="col-md-4 card card-body" style="margin-bottom: 10%;margin-top: 10%;">
+      <img src="img/ilabs.jpg">
+      <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Login</button>
 
-    <h5 class="card-header info-color white-text text-center py-4">
+    </div>
+<div class="card col-md-6 col-xl-5 mb-4" style="margin-left: 25%;margin-top: 3%;">
+
+    <!-- <h5 class="card-header info-color white-text text-center py-4">
         <strong>Sign up</strong>
-    </h5>
+    </h5> -->
 
     <!--Card content-->
     <div class="card-body px-lg-5 pt-0">
@@ -55,19 +60,48 @@
                 </div>
             </div>
 
+
+            <div class="form-row">
+                <div class="col">
+                    <!-- First name -->
+                    <div class="md-form">
+                        <input type="email" id="materialRegisterFormEmail" class="form-control">
+                        <label for="materialRegisterFormEmail">E-mail</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- Last name -->
+                    <div class="md-form">
+                        <input type="email" id="materialRegisterFormRegNo" class="form-control">
+                        <label for="materialRegisterFormRegNo">Registration Number</label>
+                    </div>
+                </div>
+            </div>
             <!-- E-mail -->
-            <div class="md-form mt-0">
-                <input type="email" id="materialRegisterFormEmail" class="form-control">
-                <label for="materialRegisterFormEmail">E-mail</label>
+            <div class="md-form">
+                <input type="email" id="materialRegisterFormProgram" class="form-control">
+                <label for="materialRegisterFormProgram">Program</label>
+            </div>
+
+
+            <div class="md-form">
+                <input type="email" id="materialRegisterFormYear" class="form-control">
+                <label for="materialRegisterFormYear">Year Of Study</label>
             </div>
 
             <!-- Password -->
             <div class="md-form">
                 <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
                 <label for="materialRegisterFormPassword">Password</label>
+                
                 <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
                     At least 8 characters and 1 digit
                 </small>
+
+            </div>
+            <div class="md-form mt-0">
+                <input type="password" id="materialRegisterFormConfirmPassword" class="form-control">
+                <label for="materialRegisterFormConfirmPassword">Confirm Password</label>
             </div>
 
             
@@ -79,9 +113,9 @@
             <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Register</button>
 
             <!-- Social register -->
-            <p>or sign up with:</p>
+            <!-- <p>or sign up with:</p> -->
 
-            <a type="button" class="btn-floating btn-fb btn-sm">
+            <!-- <a type="button" class="btn-floating btn-fb btn-sm">
                 <i class="fa fa-facebook"></i>
             </a>
             <a type="button" class="btn-floating btn-tw btn-sm">
@@ -92,7 +126,7 @@
             </a>
             <a type="button" class="btn-floating btn-git btn-sm">
                 <i class="fa fa-github"></i>
-            </a>
+            </a> -->
 
             <hr>
 
